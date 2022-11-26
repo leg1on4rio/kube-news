@@ -24,8 +24,8 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            fabricioveronez/live-kube-news:${{github.run_number}}
-            fabricioveronez/live-kube-news:latest
+            leg1on4rio/kube-news:${{github.run_number}}
+            leg1on4rio/kube-news:latest
   CD:
     runs-on: ubuntu-latest
     needs: [CI]
